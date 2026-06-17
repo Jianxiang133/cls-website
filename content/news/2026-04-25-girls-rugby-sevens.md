@@ -2,8 +2,9 @@
 title: Inter-School Sevens — Girls' Rugby Champions
 date: 2026-04-25
 category: Athletics
-thumbnail: assets/images/news-rugby.svg
-excerpt: Our senior girls' side lifted the Inter-School Sevens trophy after an unbeaten run, capping a season of remarkable team chemistry.
+thumbnail: /assets/uploads/7.png
+excerpt: Our senior girls' side lifted the Inter-School Sevens trophy after an
+  unbeaten run, capping a season of remarkable team chemistry.
 published: true
 ---
 
