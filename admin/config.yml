@@ -1,0 +1,47 @@
+backend:
+  name: github
+  repo: Jianxiang133/cls-website
+  branch: main
+  base_url: https://cms-oauth.lianjingyi77.workers.dev
+  auth_endpoint: auth
+
+media_folder: "assets/uploads"
+public_folder: "/assets/uploads"
+
+site_url: https://clsedu.hk
+display_url: https://clsedu.hk
+logo_url: /assets/logo.webp
+
+locale: en
+
+collections:
+  - name: news
+    label: News articles
+    label_singular: News article
+    folder: content/news
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    summary: "{{date | date('YYYY-MM-DD')}} · {{title}}"
+    sortable_fields: [date, title]
+    fields:
+      - { label: Title, name: title, widget: string }
+      - { label: Publish date, name: date, widget: datetime, date_format: "YYYY-MM-DD", time_format: false, format: "YYYY-MM-DD" }
+      - label: Category
+        name: category
+        widget: select
+        default: News
+        options:
+          - News
+          - Athletics
+          - Admissions
+          - Citizenship
+          - Innovation
+          - Faculty
+          - Press
+          - Music
+          - Outdoor
+          - Academics
+      - { label: Thumbnail image, name: thumbnail, widget: image, required: false, hint: "Recommended 1200×750. Leave empty to use a coloured tile." }
+      - { label: Short summary (shown on news list), name: excerpt, widget: text }
+      - { label: Article body, name: body, widget: markdown }
+      - { label: Published, name: published, widget: boolean, default: true, hint: "Uncheck to keep this article hidden from the website." }
