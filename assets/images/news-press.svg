@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Newspaper headline">
+  <defs>
+    <linearGradient id="n-bg" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#1a2754"/>
+      <stop offset="100%" stop-color="#0f1936"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#n-bg)"/>
+  <g transform="translate(300,210) rotate(-6)">
+    <rect x="-150" y="-110" width="300" height="220" fill="#f4ead9" stroke="#c9a85c" stroke-width="2"/>
+    <text x="0" y="-75" text-anchor="middle" font-family="Georgia, serif" font-size="14" fill="#1a2754" letter-spacing="3">THE DAILY</text>
+    <line x1="-130" y1="-60" x2="130" y2="-60" stroke="#1a2754" stroke-width="1"/>
+    <text x="0" y="-30" text-anchor="middle" font-family="Georgia, serif" font-size="22" font-weight="bold" fill="#1a2754">PRESS REPORT</text>
+    <line x1="-130" y1="-15" x2="130" y2="-15" stroke="#1a2754" stroke-width="1"/>
+    <g stroke="#5a5a5a" stroke-width="1.5" opacity="0.7">
+      <line x1="-130" y1="0" x2="-20" y2="0"/>
+      <line x1="-130" y1="12" x2="-30" y2="12"/>
+      <line x1="-130" y1="24" x2="-20" y2="24"/>
+      <line x1="-130" y1="36" x2="-40" y2="36"/>
+      <line x1="-130" y1="48" x2="-25" y2="48"/>
+      <line x1="-130" y1="60" x2="-30" y2="60"/>
+      <line x1="-130" y1="72" x2="-20" y2="72"/>
+      <line x1="-130" y1="84" x2="-35" y2="84"/>
+    </g>
+    <rect x="0" y="0" width="130" height="90" fill="#c9a85c" opacity="0.4"/>
+    <rect x="0" y="0" width="130" height="90" fill="none" stroke="#1a2754" stroke-width="1"/>
+  </g>
+  <text x="300" y="370" text-anchor="middle" font-family="Georgia, serif" font-size="14" fill="#fff" opacity="0.9" letter-spacing="3">IN THE PRESS</text>
+</svg>

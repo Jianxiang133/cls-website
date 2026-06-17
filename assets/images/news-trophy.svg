@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" preserveAspectRatio="xMidYMid slice" role="img" aria-label="News thumbnail: trophy">
+  <defs>
+    <linearGradient id="t-bg" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#c9a85c"/>
+      <stop offset="100%" stop-color="#1a2754"/>
+    </linearGradient>
+    <linearGradient id="t-gold" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#e0c688"/>
+      <stop offset="100%" stop-color="#a88a3f"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#t-bg)"/>
+  <!-- Glow -->
+  <circle cx="300" cy="200" r="180" fill="#fff8e8" opacity="0.15"/>
+  <!-- Trophy -->
+  <g transform="translate(300,200)">
+    <!-- Cup -->
+    <path d="M-60,-80 L60,-80 L50,40 L-50,40 Z" fill="url(#t-gold)"/>
+    <ellipse cx="0" cy="-80" rx="60" ry="14" fill="#e0c688"/>
+    <ellipse cx="0" cy="-80" rx="60" ry="14" fill="none" stroke="#a88a3f" stroke-width="2"/>
+    <!-- Handles -->
+    <path d="M-60,-70 Q-90,-50 -90,-20 Q-90,0 -60,0" fill="none" stroke="url(#t-gold)" stroke-width="10"/>
+    <path d="M60,-70 Q90,-50 90,-20 Q90,0 60,0" fill="none" stroke="url(#t-gold)" stroke-width="10"/>
+    <!-- Star -->
+    <polygon points="0,-50 8,-30 30,-30 12,-15 18,5 0,-8 -18,5 -12,-15 -30,-30 -8,-30" fill="#1a2754"/>
+    <!-- Stem -->
+    <rect x="-15" y="40" width="30" height="40" fill="url(#t-gold)"/>
+    <!-- Base -->
+    <rect x="-50" y="80" width="100" height="20" rx="2" fill="url(#t-gold)"/>
+    <rect x="-60" y="100" width="120" height="14" rx="2" fill="#a88a3f"/>
+  </g>
+  <text x="300" y="350" text-anchor="middle" font-family="Georgia, serif" font-size="14" fill="#fff" opacity="0.9" letter-spacing="3">CHAMPIONSHIP</text>
+</svg>

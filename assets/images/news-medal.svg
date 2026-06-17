@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Ribbon medal honor">
+  <defs>
+    <linearGradient id="m-bg" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#1a2754"/>
+      <stop offset="100%" stop-color="#0f1936"/>
+    </linearGradient>
+    <linearGradient id="m-gold" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#e0c688"/>
+      <stop offset="100%" stop-color="#a88a3f"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#m-bg)"/>
+  <circle cx="300" cy="200" r="170" fill="#c9a85c" opacity="0.12"/>
+  <g transform="translate(300,210)">
+    <!-- Ribbon -->
+    <polygon points="-50,-130 -10,-130 10,-50 -30,-50" fill="#a85f3a"/>
+    <polygon points="50,-130 10,-130 -10,-50 30,-50" fill="#6a3a20"/>
+    <!-- Medal -->
+    <circle cx="0" cy="0" r="60" fill="url(#m-gold)"/>
+    <circle cx="0" cy="0" r="60" fill="none" stroke="#7a5e2e" stroke-width="2"/>
+    <circle cx="0" cy="0" r="48" fill="none" stroke="#7a5e2e" stroke-width="1"/>
+    <!-- Star -->
+    <polygon points="0,-30 10,-8 32,-8 14,8 22,30 0,16 -22,30 -14,8 -32,-8 -10,-8" fill="#1a2754"/>
+  </g>
+  <text x="300" y="360" text-anchor="middle" font-family="Georgia, serif" font-size="14" fill="#fff" opacity="0.9" letter-spacing="3">EXCELLENCE</text>
+</svg>

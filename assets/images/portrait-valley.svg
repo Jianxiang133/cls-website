@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Wisdom Valley landscape with hiking trail and Sai Kung coastline">
+  <defs>
+    <linearGradient id="w-sky" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#a8c4d4"/>
+      <stop offset="100%" stop-color="#f0e6c8"/>
+    </linearGradient>
+    <linearGradient id="w-sea" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#3a6f8a"/>
+      <stop offset="100%" stop-color="#1f3a52"/>
+    </linearGradient>
+    <linearGradient id="w-hill1" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#7c8a78"/>
+      <stop offset="100%" stop-color="#5d6e5b"/>
+    </linearGradient>
+    <linearGradient id="w-hill2" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#5d7754"/>
+      <stop offset="100%" stop-color="#3f5638"/>
+    </linearGradient>
+    <linearGradient id="w-hill3" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#4a6440"/>
+      <stop offset="100%" stop-color="#2d4128"/>
+    </linearGradient>
+    <linearGradient id="w-trail" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0%" stop-color="#c9a85c"/>
+      <stop offset="100%" stop-color="#a88a3f"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#w-sky)"/>
+  <!-- Sun -->
+  <circle cx="600" cy="240" r="40" fill="#fff8e8" opacity="0.7"/>
+  <circle cx="600" cy="240" r="60" fill="#fff8e8" opacity="0.3"/>
+  
+  <!-- Far hills -->
+  <path d="M0,420 Q200,370 400,390 T800,380 L800,500 L0,500 Z" fill="url(#w-hill1)"/>
+  
+  <!-- Sea -->
+  <path d="M0,500 L800,500 L800,560 L0,560 Z" fill="url(#w-sea)"/>
+  <g stroke="#a8c4d4" stroke-width="1" opacity="0.5">
+    <line x1="80" y1="520" x2="160" y2="520"/>
+    <line x1="240" y1="525" x2="320" y2="525"/>
+    <line x1="400" y1="530" x2="500" y2="530"/>
+    <line x1="600" y1="535" x2="700" y2="535"/>
+    <line x1="120" y1="540" x2="220" y2="540"/>
+    <line x1="350" y1="545" x2="450" y2="545"/>
+    <line x1="550" y1="550" x2="650" y2="550"/>
+  </g>
+  
+  <!-- Mid hills -->
+  <path d="M0,560 Q200,500 400,530 T800,520 L800,680 L0,680 Z" fill="url(#w-hill2)"/>
+  <!-- Trees on mid hills -->
+  <g opacity="0.7">
+    <circle cx="80" cy="570" r="8" fill="#3a5230"/>
+    <circle cx="180" cy="560" r="10" fill="#2d4128"/>
+    <circle cx="280" cy="565" r="7" fill="#3a5230"/>
+    <circle cx="420" cy="555" r="9" fill="#2d4128"/>
+    <circle cx="540" cy="560" r="8" fill="#3a5230"/>
+    <circle cx="660" cy="555" r="10" fill="#2d4128"/>
+    <circle cx="760" cy="565" r="7" fill="#3a5230"/>
+  </g>
+  
+  <!-- Near valley with trail -->
+  <path d="M0,680 Q200,620 400,660 T800,650 L800,1000 L0,1000 Z" fill="url(#w-hill3)"/>
+  
+  <!-- Hiking trail winding down -->
+  <path d="M400,640 Q380,700 420,750 Q460,800 400,850 Q340,900 380,1000" 
+        fill="none" stroke="url(#w-trail)" stroke-width="8" stroke-linecap="round"/>
+  <path d="M400,640 Q380,700 420,750 Q460,800 400,850 Q340,900 380,1000" 
+        fill="none" stroke="#fff" stroke-width="1" stroke-dasharray="6 10" opacity="0.5"/>
+  
+  <!-- Trees in foreground -->
+  <g>
+    <ellipse cx="100" cy="780" rx="40" ry="55" fill="#3a5230"/>
+    <ellipse cx="80" cy="800" rx="30" ry="45" fill="#2d4128"/>
+    <ellipse cx="700" cy="760" rx="45" ry="60" fill="#3a5230"/>
+    <ellipse cx="720" cy="780" rx="35" ry="50" fill="#2d4128"/>
+    <ellipse cx="200" cy="850" rx="35" ry="50" fill="#2d4128"/>
+    <ellipse cx="600" cy="830" rx="40" ry="55" fill="#3a5230"/>
+  </g>
+  
+  <!-- Hiker silhouette (small) -->
+  <g transform="translate(395,800)" fill="#1a1a1a" opacity="0.8">
+    <circle cx="0" cy="-10" r="3"/>
+    <rect x="-2" y="-7" width="4" height="10"/>
+    <line x1="-2" y1="3" x2="-4" y2="10" stroke="#1a1a1a" stroke-width="2"/>
+    <line x1="2" y1="3" x2="4" y2="10" stroke="#1a1a1a" stroke-width="2"/>
+    <line x1="-2" y1="-3" x2="-5" y2="0" stroke="#1a1a1a" stroke-width="2"/>
+    <line x1="2" y1="-3" x2="5" y2="0" stroke="#1a1a1a" stroke-width="2"/>
+  </g>
+  
+  <!-- Birds -->
+  <g fill="none" stroke="#3a3a3a" stroke-width="1.5" stroke-linecap="round" opacity="0.5">
+    <path d="M180,180 Q186,174 192,180 Q198,174 204,180"/>
+    <path d="M250,200 Q255,196 260,200 Q265,196 270,200"/>
+    <path d="M450,160 Q456,154 462,160 Q468,154 474,160"/>
+  </g>
+</svg>

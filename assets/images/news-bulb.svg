@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Lightbulb innovation">
+  <defs>
+    <radialGradient id="b-bg" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#c9a85c"/>
+      <stop offset="100%" stop-color="#1a2754"/>
+    </radialGradient>
+    <radialGradient id="b-glow" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#fff8e8" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#fff8e8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#b-bg)"/>
+  <circle cx="300" cy="180" r="160" fill="url(#b-glow)"/>
+  <g transform="translate(300,200)">
+    <!-- Bulb glass -->
+    <path d="M0,-90 Q-60,-90 -60,-30 Q-60,10 -30,40 L-30,60 L30,60 L30,40 Q60,10 60,-30 Q60,-90 0,-90 Z" fill="#fff8e8" opacity="0.85"/>
+    <path d="M0,-90 Q-60,-90 -60,-30 Q-60,10 -30,40 L-30,60 L30,60 L30,40 Q60,10 60,-30 Q60,-90 0,-90 Z" fill="none" stroke="#fff" stroke-width="2"/>
+    <!-- Filament -->
+    <path d="M-20,20 Q0,-20 20,20" fill="none" stroke="#a85f3a" stroke-width="2"/>
+    <line x1="-15" y1="22" x2="-15" y2="38" stroke="#a85f3a" stroke-width="1.5"/>
+    <line x1="15" y1="22" x2="15" y2="38" stroke="#a85f3a" stroke-width="1.5"/>
+    <!-- Base -->
+    <rect x="-25" y="60" width="50" height="10" fill="#7a5e47"/>
+    <rect x="-22" y="70" width="44" height="6" fill="#5a4030"/>
+    <rect x="-19" y="76" width="38" height="6" fill="#7a5e47"/>
+    <!-- Rays -->
+    <g stroke="#fff8e8" stroke-width="3" stroke-linecap="round" opacity="0.7">
+      <line x1="-90" y1="-60" x2="-110" y2="-80"/>
+      <line x1="90" y1="-60" x2="110" y2="-80"/>
+      <line x1="-100" y1="0" x2="-125" y2="0"/>
+      <line x1="100" y1="0" x2="125" y2="0"/>
+      <line x1="0" y1="-110" x2="0" y2="-135"/>
+    </g>
+  </g>
+  <text x="300" y="360" text-anchor="middle" font-family="Georgia, serif" font-size="14" fill="#fff" opacity="0.9" letter-spacing="3">INNOVATION</text>
+</svg>
