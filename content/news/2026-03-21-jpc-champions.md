@@ -2,8 +2,9 @@
 title: Territory-wide JPC Competition Champions
 date: 2026-03-21
 category: Citizenship
-thumbnail: assets/images/news-shield.svg
-excerpt: Our Junior Police Call team took the top territory-wide title for civic awareness and crisis simulation.
+thumbnail: /assets/uploads/chatgpt-image-jun-18-2026-03_13_57-am.png
+excerpt: Our Junior Police Call team took the top territory-wide title for civic
+  awareness and crisis simulation.
 published: true
 ---
 
