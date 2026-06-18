@@ -37,18 +37,4 @@ document.addEventListener('DOMContentLoaded', () => {
     }, { threshold: 0.4 });
     counters.forEach(c => io.observe(c));
   }
-
-  // Simple form handler (demo)
-  const form = document.querySelector('form.js-contact');
-  if (form) {
-    form.addEventListener('submit', (e) => {
-      e.preventDefault();
-      const status = form.querySelector('.form-status');
-      if (status) {
-        status.textContent = 'Thank you. We will get back to you at info@clsedu.hk.';
-        status.style.color = 'var(--gold-deep)';
-      }
-      form.reset();
-    });
-  }
 });
