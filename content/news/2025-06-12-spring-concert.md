@@ -2,8 +2,9 @@
 title: Spring Concert Raises Funds for Sai Kung Outreach
 date: 2025-06-12
 category: Music
-thumbnail: assets/images/news-music.svg
-excerpt: The school orchestra and choir performed to a full house at the annual Spring Concert, with all proceeds supporting our local outreach partners.
+thumbnail: /assets/uploads/chatgpt-image-jun-18-2026-03_03_23-pm.png
+excerpt: The school orchestra and choir performed to a full house at the annual
+  Spring Concert, with all proceeds supporting our local outreach partners.
 published: true
 ---
 
