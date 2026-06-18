@@ -2,8 +2,9 @@
 title: Geneva Inventions — Young Talent Creativity Award
 date: 2026-03-09
 category: Innovation
-thumbnail: assets/images/news-bulb.svg
-excerpt: Cognitio students brought home the Young Talent Creativity Award from the 2026 Geneva International Exhibition of Inventions.
+thumbnail: /assets/uploads/chatgpt-image-jun-18-2026-02_37_01-pm.png
+excerpt: Cognitio students brought home the Young Talent Creativity Award from
+  the 2026 Geneva International Exhibition of Inventions.
 published: true
 ---
 
