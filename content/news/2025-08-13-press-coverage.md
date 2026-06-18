@@ -2,8 +2,9 @@
 title: Cognitio in the Press — Cultural Heritage & Innovation
 date: 2025-08-13
 category: Press
-thumbnail: assets/images/news-press.svg
-excerpt: Local press covers our integration of Chinese cultural heritage with STEM-driven innovation in the community.
+thumbnail: /assets/uploads/chatgpt-image-jun-18-2026-02_56_59-pm.png
+excerpt: Local press covers our integration of Chinese cultural heritage with
+  STEM-driven innovation in the community.
 published: true
 ---
 
