@@ -2,8 +2,9 @@
 title: Marine Biology Field Camp — Hoi Ha Wan
 date: 2025-05-02
 category: Outdoor
-thumbnail: assets/images/news-boat.svg
-excerpt: S4 students completed a five-day marine biology field camp at Hoi Ha Wan Marine Park, contributing data to a citizen-science programme.
+thumbnail: /assets/uploads/wechatimg5521.jpg
+excerpt: S4 students completed a five-day marine biology field camp at Hoi Ha
+  Wan Marine Park, contributing data to a citizen-science programme.
 published: true
 ---
 
