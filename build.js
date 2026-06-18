@@ -89,6 +89,27 @@ function buildNewsIndex(articles) {
   fs.writeFileSync(NEWS_INDEX, replaced);
 }
 
+function buildHomepageHighlights(articles) {
+  const HOME = path.join(ROOT, "index.html");
+  if (!fs.existsSync(HOME)) return;
+  const tpl = fs.readFileSync(HOME, "utf8");
+  // Take latest 4 published articles
+  const featured = articles.slice(0, 4);
+  if (featured.length === 0) return;
+  const cards = featured.map(cardMarkup).join("\n");
+  // Replace the news-grid block inside the "What Our Students Are Doing" section.
+  const replaced = tpl.replace(
+    /(<h2>What Our Students Are Doing<\/h2>[\s\S]*?)<div class="news-grid">[\s\S]*?<\/div>(\s*<div style="text-align:center)/m,
+    `$1<div class="news-grid">\n${cards}\n    </div>$2`
+  );
+  if (replaced !== tpl) {
+    fs.writeFileSync(HOME, replaced);
+    console.log("Homepage highlights rebuilt.");
+  } else {
+    console.log("Homepage news-grid pattern not found; skipped.");
+  }
+}
+
 function articlePage(a) {
   const tpl = fs.readFileSync(NEWS_INDEX, "utf8");
   const head = tpl.split("<section class=\"page-header\">")[0];
@@ -161,6 +182,7 @@ console.log(`Found ${articles.length} published article(s).`);
 if (articles.length > 0) {
   buildNewsIndex(articles);
   buildArticles(articles);
+  buildHomepageHighlights(articles);
   console.log("News pages rebuilt.");
 } else {
   console.log("No articles yet — leaving news.html as-is.");
