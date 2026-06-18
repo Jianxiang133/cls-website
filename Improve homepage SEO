@@ -3,13 +3,38 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Cognitio Lutheran Secondary School · 文理路德中學</title>
-  <meta name="description" content="Cognitio Lutheran Secondary School (文理路德中學) — a Lutheran secondary school in Sai Kung, Hong Kong, founded 1960. Faith, knowledge, character." />
+  <title>Cognitio Lutheran Secondary School | Official Homepage | 文理路德中學</title>
+ <meta name="description" content="Cognitio Lutheran Secondary School (文理路德中學) is a Lutheran secondary school in Sai Kung, Hong Kong, founded in 1960. Explore admissions, academics, news, and contact information on the official homepage." />
+  <meta name="robots" content="index, follow, max-image-preview:large" />
   <link rel="icon" type="image/webp" href="assets/logo.webp" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="assets/css/style.css" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": ["School", "EducationalOrganization"],
+    "name": "Cognitio Lutheran Secondary School",
+    "alternateName": "文理路德中學",
+    "url": "https://clsedu.hk/",
+    "mainEntityOfPage": "https://clsedu.hk/",
+    "logo": "https://clsedu.hk/assets/logo.webp",
+    "image": "https://clsedu.hk/assets/logo.webp",
+    "email": "info@clsedu.hk",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "8 Wisdom Valley Road, Pak Tam Chung",
+      "addressLocality": "Sai Kung",
+      "addressRegion": "New Territories",
+      "addressCountry": "HK"
+    },
+    "sameAs": [
+      "https://clsedu.hk/",
+      "https://clsedu.hk/tc/"
+    ]
+  }
+</script>
 </head>
 <body>
 
@@ -35,7 +60,7 @@
       <img class="brand-logo" src="assets/logo.webp" alt="Cognitio Lutheran Secondary School crest" />
       <span class="brand-text">
         <span class="en">Cognitio Lutheran Secondary School</span>
-        <span class="tc">文 理 路 德 中 學</span>
+        <span class="tc">Official English Homepage · 文 理 路 德 中 學</span>
       </span>
     </a>
     <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false">☰</button>
@@ -57,15 +82,13 @@
 <section class="hero">
   <div class="hero-bg"></div>
   <div class="container hero-content">
-    <span class="hero-eyebrow fade-up">Since 1960 · Sai Kung, Hong Kong</span>
+    <span class="hero-eyebrow fade-up">Official School Website · Since 1960 · Sai Kung, Hong Kong</span>
     <h1 class="fade-up delay-1">
       Where Faith Meets Inquiry,
       <span class="accent">and Character is Forged.</span>
     </h1>
     <p class="lead fade-up delay-2">
-      Cognitio Lutheran Secondary School is a Christian community in Pak Tam Chung
-      shaping curious minds, courageous hearts, and citizens of the world — through
-      rigorous academics, faith, and the wide horizons of Sai Kung Country Park.
+Cognitio Lutheran Secondary School is the official school website of 文理路德中學, a Christian secondary school in Pak Tam Chung, Sai Kung, Hong Kong, sharing admissions, academics, school news, and contact information.
     </p>
     <div class="hero-actions fade-up delay-3">
       <a class="btn btn-primary" href="admissions.html">Apply for 2026–27</a>
