@@ -2,7 +2,9 @@
 title: Interim Admission for S2–S4 (2026–27)
 date: 2026-04-20
 category: Admissions
-excerpt: Applications are now open for limited mid-year places in Secondary 2 to Secondary 4. Online registration available.
+thumbnail: /assets/uploads/4.png
+excerpt: Applications are now open for limited mid-year places in Secondary 2 to
+  Secondary 4. Online registration available.
 published: true
 ---
 
