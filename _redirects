@@ -1,16 +1,3 @@
-/about /about.html 301
-/academics /academics.html 301
-/student-life /student-life.html 301
-/news /news.html 301
-/contact /contact.html 301
-/admissions /admissions.html 301
-/tc /tc/index.html 301
-/tc/about /tc/about.html 301
-/tc/academics /tc/academics.html 301
-/tc/student-life /tc/student-life.html 301
-/tc/news /tc/news.html 301
-/tc/contact /tc/contact.html 301
-/tc/admissions /tc/admissions.html 301
 /tc/teacherlink.html /tc/ 301!
 /tc/* /tc/index.html 302
 /* /404.html 404
