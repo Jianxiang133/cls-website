@@ -2,8 +2,9 @@
 title: Outstanding Teaching Award for Values Education
 date: 2025-08-29
 category: Faculty
-thumbnail: assets/images/news-medal.svg
-excerpt: Two of our teachers received the Outstanding Teaching Award for Values Education at this year's territory-wide ceremony.
+thumbnail: /assets/uploads/chatgpt-image-jun-18-2026-02_44_30-pm.png
+excerpt: Two of our teachers received the Outstanding Teaching Award for Values
+  Education at this year's territory-wide ceremony.
 published: true
 ---
 
